@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ConfigVault &mdash; Backup &amp; Compliance | InfraVault Systems</title>
+  <meta name="description" content="ConfigVault delivers automated configuration backup, history, diff, compliance checks, and safe remediation for multi-vendor networks.">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="iv-header">
+    <div class="iv-container iv-header-inner">
+      <a href="index.html" class="iv-logo">InfraVault<span>Systems</span></a>
+      <nav class="iv-nav">
+        <a href="index.html#platform">Platform</a>
+        <div class="iv-nav-dropdown">
+          <button class="iv-nav-dropbtn">Products</button>
+          <div class="iv-nav-dropdown-menu">
+            <a href="configvault.html">ConfigVault</a>
+            <a href="netvault.html">NetVault</a>
+          </div>
+        </div>
+        <a href="index.html#solutions">Solutions</a>
+        <a href="index.html#why">Why InfraVault</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="iv-hero">
+      <div class="iv-container iv-hero-inner">
+        <div class="iv-hero-text">
+          <h1>ConfigVault &mdash; Network Configuration Backup &amp; Compliance</h1>
+          <p>
+            ConfigVault gives you reliable, automated configuration backup, change history, compliance checks,
+            and safe, operator-driven remediation for your network.
+          </p>
+          <div class="iv-hero-actions">
+            <a href="index.html#contact" class="iv-btn iv-btn-primary">Request ConfigVault Demo</a>
+            <a href="#capabilities" class="iv-btn iv-btn-secondary">View Capabilities</a>
+          </div>
+        </div>
+        <div class="iv-hero-card">
+          <h2>Who ConfigVault is For</h2>
+          <ul>
+            <li>Enterprise network operations teams that need a safety net for change.</li>
+            <li>Security and compliance teams that must prove backup and configuration policy coverage.</li>
+            <li>Service providers that want a consistent approach across many tenants.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="capabilities" class="iv-section iv-section-alt">
+      <div class="iv-container">
+        <h2 class="iv-section-title">Core Capabilities</h2>
+        <div class="iv-grid iv-grid-3">
+          <div class="iv-card">
+            <h3>Automated Backups</h3>
+            <p>
+              Schedule nightly backups across routers, switches, firewalls, and controllers with a unified job
+              engine and per-device visibility.
+            </p>
+          </div>
+          <div class="iv-card">
+            <h3>Snapshot History &amp; Diff</h3>
+            <p>
+              Maintain a full history of configuration snapshots, with clear diff views and change summaries so
+              you can see what changed and when.
+            </p>
+          </div>
+          <div class="iv-card">
+            <h3>Last Known Good &amp; Restore</h3>
+            <p>
+              Mark stable snapshots as Last Known Good and use them as the basis for controlled restore operations
+              on supported platforms.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="iv-section">
+      <div class="iv-container">
+        <h2 class="iv-section-title">Compliance Checks</h2>
+        <p class="iv-section-intro">
+          ConfigVault includes lightweight compliance checks that focus on high-impact, broadly applicable
+          controls.
+        </p>
+        <div class="iv-grid iv-grid-2">
+          <div class="iv-card">
+            <h3>Foundational Controls</h3>
+            <ul class="iv-product-card">
+              <li>AAA policies (for example, TACACS for administrative access where applicable).</li>
+              <li>Logging policies to ensure devices send logs to remote syslog collectors.</li>
+              <li>NTP policies to keep devices synchronized with core time sources.</li>
+              <li>SNMP guidance to avoid weak or legacy communities.</li>
+              <li>Controller-centric checks such as required APIC tenants.</li>
+            </ul>
+          </div>
+          <div class="iv-card">
+            <h3>Multi-vendor Awareness</h3>
+            <p>
+              ConfigVault understands that real networks are multi-vendor. Sample policies cover Cisco platforms
+              alongside additional vendors such as Juniper, Palo Alto, Fortinet, Huawei, Arista, and F5, with
+              vendor-specific checks where appropriate.
+            </p>
+            <p style="margin-top:0.5rem; font-size:0.9rem; color:#9ca3af;">
+              Compliance is designed to be transparent: operators can see exactly which rules were evaluated and
+              why a particular device passed or failed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="iv-section iv-section-alt">
+      <div class="iv-container">
+        <h2 class="iv-section-title">Operator-Driven Remediation</h2>
+        <div class="iv-grid iv-grid-2">
+          <div>
+            <p class="iv-section-intro">
+              ConfigVault intentionally treats remediation as an operator-driven workflow. When a rule fails,
+              authorized users can propose and apply CLI-based fixes using the same secure infrastructure that
+              powers backup and restore.
+            </p>
+            <ul class="iv-list">
+              <li>Remediation jobs are clearly labeled in the job history.</li>
+              <li>RBAC ensures only permitted roles can apply changes.</li>
+              <li>Every remediation action is logged for audit and change review.</li>
+            </ul>
+          </div>
+          <div class="iv-callout">
+            <h3>Guardrails First</h3>
+            <p>
+              The remediation model is designed for safety. The platform provides the rails and visibility, while
+              your engineers retain control over the exact commands applied.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="iv-section">
+      <div class="iv-container">
+        <h2 class="iv-section-title">Deployment &amp; Integration</h2>
+        <div class="iv-grid iv-grid-2">
+          <div class="iv-card">
+            <h3>Flexible Deployment</h3>
+            <p>
+              ConfigVault can be deployed as part of an appliance alongside NetVault, connecting to your network
+              via SSH/CLI, SNMP, and relevant APIs.
+            </p>
+          </div>
+          <div class="iv-card">
+            <h3>Shared Platform</h3>
+            <p>
+              ConfigVault runs on the same InfraVault platform services as NetVault, including job scheduling,
+              RBAC, audit logging, and credential management, simplifying operations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="iv-section iv-section-alt">
+      <div class="iv-container">
+        <h2 class="iv-section-title">Next Steps</h2>
+        <p class="iv-section-intro">
+          Ready to explore ConfigVault for your environment?
+        </p>
+        <a href="index.html#contact" class="iv-btn iv-btn-primary">Talk to InfraVault about ConfigVault</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="iv-footer">
+    <div class="iv-container iv-footer-inner">
+      <p>&copy; <span id="year"></span> InfraVault Systems. All rights reserved.</p>
+      <p class="iv-footer-links">
+        <a href="index.html#platform">Platform</a>
+        <span>&middot;</span>
+        <a href="configvault.html">ConfigVault</a>
+        <span>&middot;</span>
+        <a href="netvault.html">NetVault</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Simple click-based dropdown behavior for the Products menu
+    document.addEventListener('DOMContentLoaded', function () {
+      var dropdown = document.querySelector('.iv-nav-dropdown');
+      if (!dropdown) return;
+
+      var button = dropdown.querySelector('.iv-nav-dropbtn');
+      var menu = dropdown.querySelector('.iv-nav-dropdown-menu');
+
+      if (!button || !menu) return;
+
+      button.addEventListener('click', function (e) {
+        e.stopPropagation();
+        dropdown.classList.toggle('open');
+      });
+
+      document.addEventListener('click', function () {
+        dropdown.classList.remove('open');
+      });
+    });
+  </script>
+</body>
+</html>
